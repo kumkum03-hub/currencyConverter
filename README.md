@@ -1,16 +1,83 @@
-# React + Vite
+# React Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-Frontend-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-Styling-06B6D4)
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+React Currency Converter is a frontend application that allows users to convert currencies using real-time exchange rate data.
 
-## React Compiler
+The project was built to practice React fundamentals such as state management, custom hooks, reusable components, and API integration.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Currency conversion between multiple currencies
+* Real-time exchange rate data
+* Currency swap functionality
+* Custom React Hook for fetching currency data
+* Reusable InputBox component
+* Responsive user interface
+* Dynamic conversion updates
+
+---
+
+## Tech Stack
+
+* React
+* JavaScript
+* Tailwind CSS
+* Currency Exchange API
+
+---
+
+## Concepts Demonstrated
+
+### React State Management
+
+* useState Hook
+* Controlled Components
+* State Updates
+
+### Custom Hooks
+
+* Custom Hook (`useCurrencyInfo`)
+* API Data Fetching
+* Reusable Logic
+
+### Component-Based Architecture
+
+* Reusable InputBox Component
+* Props Management
+* Component Communication
+
+---
+
+## Application Flow
+
+1. User enters an amount.
+2. User selects source currency.
+3. User selects target currency.
+4. Currency data is fetched through a custom hook.
+5. Conversion rate is applied.
+6. Converted amount is displayed.
+7. User can swap currencies instantly.
+
+---
+
+## Learning Outcomes
+
+* React Fundamentals
+* Custom Hooks
+* API Integration
+* State Management
+* Component Reusability
+* Tailwind CSS Styling
+
+---
+
+## Author
+
+Kumkum Kamthan
