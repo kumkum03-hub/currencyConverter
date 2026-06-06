@@ -4,6 +4,10 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-Styling-06B6D4)
 
+## Live Demo
+
+[View Live Project](https://currency-converter-lx7j2zias-kumkum03-hubs-projects.vercel.app)
+
 ## Overview
 
 React Currency Converter is a frontend application that allows users to convert currencies using real-time exchange rate data.
